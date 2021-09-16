@@ -1,0 +1,32 @@
+:root {
+  --header-font: 'Bebas Neue', sans-serif;
+  --text-font: 'Roboto', sans-serif;
+
+  --bg-color: rgb(22, 20, 20);
+  --logo-color: rgb(182, 17, 17);
+  --text-color: rgb(236, 232, 230);
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font: 64px var(--header-font);
+
+  color: var(--logo-color);
+}
+
+img {
+  max-height: 300px;
+  padding: 65px 65px 65px 65px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  margin: 0 0 5px;
+}
